@@ -51,6 +51,6 @@ From `cmd.exe`â€™s perspective, this behaves the same as running a `.bat` file â
 
 int main()
 {
-    RunBatchInMemory(batchScript);
+    BatMem(batchScript);
     return 0;
 }
