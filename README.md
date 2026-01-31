@@ -2,8 +2,6 @@
 
 Execute Windows batch scripts entirely from memory, without writing `.bat` files to disk!
 
----
-
 ## Overview
 
 **Batch-Memory** is a simple C/C++ tool that allows you to execute Windows batch scripts directly from memory by streaming them into `cmd.exe` via standard input.
@@ -12,8 +10,6 @@ No temporary `.bat` files are created.
 No disk writes are performed.
 
 This makes it ideal for tools that need clean execution, reduced disk artifacts, or a simple way to run large batch scripts programmatically.
-
----
 
 ## How It Works
 
@@ -28,8 +24,6 @@ Batch-Memory works by:
 
 From `cmd.exe`’s perspective, this behaves the same as running a `.bat` file — without ever creating one.
 
----
-
 ## Features
 
 - ✅ Executes batch scripts fully from memory
@@ -39,8 +33,6 @@ From `cmd.exe`’s perspective, this behaves the same as running a `.bat` file �
 - ✅ Minimal WinAPI usage
 - ✅ Easy to integrate into any C++ project
 - ✅ Open-source and auditable
-
----
 
 ## Example Usage
 
